@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;700;800&display=swap");
+.gird-container {
+  display: grid;
+  grid-template-rows: 30vh 30vh;
+
+  grid-template-columns: repeat(5, 1fr);
+
+  grid-row: 5px;
+  justify-items: center;
+  text-align: center;
+  align-items: stretch;
+}
+
+.gird-container > div {
+  margin-left: 12px;
+  margin-right: 20px;
+}
+#fontdiv {
+  font-weight: 300;
+  font-size: 2em;
+}
+#mainscore {
+  font-weight: 400;
+  font-size: 2.5em;
+}
+
+.gird-container > div {
+  background-color: white;
+  justify-items: center;
+  color: black;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+}
+
+.gird-container > div:nth-child(3) {
+  border: 0px;
+}
+
+fontdiv {
+  font-size: 1.3em;
+}
+
+#div {
+}
+
+.footer {
+  margin-top: 460px;
+  margin-left: 80px;
+  font-size: 18px;
+}
