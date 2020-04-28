@@ -10,9 +10,16 @@
   text-align: center;
   align-items: stretch;
 }
-
-.gird-container > div {
-  margin-left: 12px;
+#div1 {
+  margin-left: 200px;
+  margin-right: 5px;
+}
+#div5 {
+  margin-left: 2px;
+  margin-right: 200px;
+}
+#div3 {
+  margin-left: 20px;
   margin-right: 20px;
 }
 #fontdiv {
