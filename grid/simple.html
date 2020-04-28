@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Grid</title>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr 2fr);
+            grid-gap: 1em;
+            grid-auto-rows: minmax(100px, auto);
+            align-items: center;
+            justify-items: center;
+            align-items: stretch;
+        }
+
+        .grid-container>div {
+            padding: 1em;
+            background-color: gray;
+        }
+
+        .grid-container>div:nth-child(odd) {
+            background-color: blue;
+        }
+
+        #c1 {
+            justify-self: center;
+            align-self: center;
+        }
+    </style>
+</head>
+
+<body>
+    <!--Percentage of CSS is growing -->
+    <div class="grid-container">
+        <div id="c1">BOX 1</div>
+        <div>BOX 2</div>
+        <div>BOX 3</div>
+        <div>BOX 4</div>
+        <div>BOX 5</div>
+    </div>
+</body>
+
+</html>
